@@ -1,0 +1,6 @@
+# Fonts to install for the Fachii Frost preset
+JetBrainsMono Nerd Font
+FiraCode Nerd Font
+Inter
+Noto Sans
+Noto Sans Mono

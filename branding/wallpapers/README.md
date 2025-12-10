@@ -1,0 +1,1 @@
+Place wallpaper assets here to be included later in the live image or theming packages. The build script currently keeps wallpapers external so you can swap images without altering the ISO build steps.

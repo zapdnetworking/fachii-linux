@@ -1,0 +1,49 @@
+# Fachii Linux base desktop selection
+# Desktop environment
+GNOME
+# Listing packages line by line for live-build
+
+gnome-shell
+gnome-session
+gnome-terminal
+gnome-tweaks
+nautilus
+gnome-control-center
+
+# Browsing
+firefox-esr
+
+# Office
+libreoffice
+evince
+
+# Media
+vlc
+
+# Tools
+gnome-system-monitor
+gnome-disk-utility
+gparted
+file-roller
+shotwell
+gnome-calculator
+
+# Networking
+network-manager
+network-manager-gnome
+
+# System utilities
+sudo
+bash-completion
+curl
+wget
+git
+flatpak
+ca-certificates
+
+# FANCY STUFF for ricing later
+neofetch
+htop
+btop
+fonts-jetbrains-mono
+fonts-firacode

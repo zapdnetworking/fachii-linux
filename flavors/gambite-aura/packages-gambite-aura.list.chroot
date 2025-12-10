@@ -1,0 +1,5 @@
+# Gambite Aura: security/pentest flavor building on Fachii base
+# TODO: extend from Fachii package set with focused security tools
+nmap
+wireshark
+hydra

@@ -1,0 +1,53 @@
+# Fachii Frost Alacritty profile
+window:
+  opacity: 0.92
+  padding:
+    x: 8
+    y: 8
+  decorations: full
+  startup_mode: Windowed
+
+font:
+  normal:
+    family: "JetBrainsMono Nerd Font"
+    style: Regular
+  size: 11.0
+
+draw_bold_text_with_bright_colors: true
+
+colors:
+  primary:
+    background: '0x0b1c2c'
+    foreground: '0xd7e6f5'
+  cursor:
+    text: '0x0b1c2c'
+    cursor: '0x8be9fd'
+  normal:
+    black:   '0x0b1c2c'
+    red:     '0xe06c75'
+    green:   '0x8fd6ba'
+    yellow:  '0xe5c07b'
+    blue:    '0x61afef'
+    magenta: '0xc778dd'
+    cyan:    '0x56b6c2'
+    white:   '0xd7e6f5'
+  bright:
+    black:   '0x15273a'
+    red:     '0xff7b86'
+    green:   '0xa4f7cf'
+    yellow:  '0xffd787'
+    blue:    '0x7cc7ff'
+    magenta: '0xd7a0ff'
+    cyan:    '0x7be0e3'
+    white:   '0xffffff'
+
+cursor:
+  style: Beam
+  thickness: 0.15
+
+scrolling:
+  history: 5000
+  multiplier: 3
+
+selection:
+  semantic_escape_chars: " ,;:@&=*\"|\`()[]{}<>\t"

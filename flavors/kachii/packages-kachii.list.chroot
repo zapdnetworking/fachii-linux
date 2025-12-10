@@ -1,0 +1,8 @@
+# Kachii: development-heavy flavor building on Fachii base
+# TODO: extend from Fachii package set and add specialized tooling
+build-essential
+gcc
+g++
+clang
+cmake
+python3-pip

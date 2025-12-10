@@ -1,0 +1,1 @@
+Add your frost-themed wallpapers here. Recommended resolution: 4K (3840x2160) or 1440p. The build scripts do not embed images by default; drop PNG/JPEG files into this folder and update your wallpaper tool (e.g., GNOME, swaybg) to point at them.

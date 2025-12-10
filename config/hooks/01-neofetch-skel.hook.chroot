@@ -1,0 +1,21 @@
+#!/bin/bash
+set -euo pipefail
+
+NEOFETCH_SOURCE="/usr/share/allnine-fachii/neofetch"
+SKEL_DEST="/etc/skel/.config/neofetch"
+
+mkdir -p "$SKEL_DEST"
+
+if [ -f "$NEOFETCH_SOURCE/config.conf" ]; then
+  cp "$NEOFETCH_SOURCE/config.conf" "$SKEL_DEST/config.conf"
+fi
+
+if [ -f "$NEOFETCH_SOURCE/ascii.txt" ]; then
+  cp "$NEOFETCH_SOURCE/ascii.txt" "$SKEL_DEST/ascii.txt"
+fi
+
+# Ensure neofetch runs quietly if missing optional tools
+for file in "$SKEL_DEST"/*.conf "$SKEL_DEST"/*.txt; do
+  [ -e "$file" ] || continue
+  chmod 644 "$file"
+done
